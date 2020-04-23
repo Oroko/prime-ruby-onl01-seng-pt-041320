@@ -1,5 +1,5 @@
 # Add  code here!
-def prime?(array)
+# def prime?(array)
   
-end
+# end
   
