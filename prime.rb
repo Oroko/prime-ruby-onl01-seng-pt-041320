@@ -3,10 +3,10 @@
   
 # end
   
-  def get_prime_no_upto(number)
+def prime?(array)
   start = 2
-  primes = (start..number).to_a
-  (start..number).each do |no|
+  primes = (start..array).to_a
+  (start..array).each do |no|
     (start..no).each do |num|
       if ( no % num  == 0) && num != no
         primes.delete(no)
